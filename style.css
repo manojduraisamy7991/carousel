@@ -1,4 +1,29 @@
-.banner-image {
+.carousel-container {
+  position: relative;
+}
+.carouselImgs {
   height: 300px;
+  display: none;
   width: 100%;
+}
+.previous-button,
+.next-button {
+  border: 3px solid white;
+  position: absolute;
+  top: 49%;
+  cursor: pointer;
+
+}
+.previous-button {
+  left: 10px;
+}
+.next-button {
+  right: 10px;
+}
+h1{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  cursor: pointer; 
+  color: red;
 }
