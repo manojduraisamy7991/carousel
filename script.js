@@ -31,3 +31,7 @@ window.onload = function () {
     nextSlide();
   });
 };
+
+setInterval(() => {
+  nextSlide();
+}, 3500);
